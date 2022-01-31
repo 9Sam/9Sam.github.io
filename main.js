@@ -63,6 +63,7 @@ let items = document.getElementById("resultItems");
 
 mostrar.addEventListener('click', () => {
     items.innerHTML = "";
+    items.innerHTML = "<hr>"
     let len = document.getElementById("len").value;
     let amount = document.getElementById("amount").value;
     console.log(len, amount);
