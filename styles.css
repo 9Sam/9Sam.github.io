@@ -15,14 +15,19 @@ body{
 }
 
 .inputs{
+    display: block;
     padding: 20px;
     width: auto;
-    height: 30px;
+    height: auto;
 }
 
 input{
     padding: 5px;
     border-radius: 5px;
+}
+
+.form-element{
+    margin: 10px;
 }
 
 #results{
@@ -38,6 +43,7 @@ input{
     border-radius:5px;
     outline: none;
     color: white;
+    margin: 20px;
     padding: 5px;
     text-decoration: dashed;
 }
